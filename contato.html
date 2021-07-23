@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulheres do Jequi</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <ul id= "menu">
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="contato.html">Contato</a></li>
+  </ul>
+
+  <h1 class="center">Entre em contato comigo</h1>
+
+  <div class="container mb-50">
+    <div>
+       <form>
+          <label for="nome">Nome:</label> <br>
+          <input type="text" id="nome" onkeyup='validaNome()'>
+          <div id='txtNome'></div>
+          <br>
+          <label for="email">E-mail:</label> <br>
+          <input type="email" id="email" onkeyup='validaEmail()'>
+          <div id='txtEmail'></div>
+          <br>
+          <label for="assunto">Assunto:</label> <br>
+          <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+          <div id='txtAssunto'></div>
+          <br>
+          <br>
+          <button onclick="enviar()" >Enviar</button>
+       </form>
+    </div>
+
+    <div class="ml-50">
+      <p>Avenida Celso Garcia</p>
+      <p>São Paulo - SP</p>
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.979854176894!2d-46.565903485022716!3d-23.53322698469681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ef008276c73%3A0xc660521917a2698!2sAv.%20Celso%20Garcia%2C%205000%20-%20Tatuap%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003064-000!5e0!3m2!1spt-BR!2sbr!4v1626985199499!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</div>
+
+<hr>
+<footer>
+  <div class="container">
+    <a href="https://www.facebook.com/mulheresdojequitinhonha/" target="_blank">
+       <img class="tm-social p-30" src="assets/img/face.png" alt="Logo do Facebook">
+    </a>
+      
+    <a href="https://www.instagram.com/mulheresdojequitinhonha/?hl=pt-br" target="_blank">
+       <img class="tm-social p-30" src="assets/img/insta.png" alt="Logo do Intagram">
+    </a>
+  </div>
+ </footer>
+<script src= "assets/js/script.js"></script>
+
+</body>
+</html>
